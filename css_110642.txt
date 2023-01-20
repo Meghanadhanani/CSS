@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+}
+h2{
+    color:blue;
+}
+.backImg{
+
+ width:100%; 
+ height:100vh; 
+/* background-color:red; */
+background-image:url('computer.jpg');
+background-repeat: repeat-x;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+.backImg1{
+
+    width:100%; 
+    height:100vh; 
+   /* background-color:red; */
+   background-image:url('io.jpg');
+   background-repeat: repeat-x;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+   }
+   .fontcss{
+    color:rgb(49, 43, 226);   
+    font-family: 'Roboto', sans-serif;
+font-family: 'Sofia Sans', sans-serif;
+ font-variant: small-caps; 
+ font-size:xx-large; 
+ font-weight:bolder; 
+   }
+.textcss{
+    color: brown;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Sofia Sans', sans-serif;
+letter-spacing: 5px;
+word-spacing: 5px;
+ direction:rtl; 
+ text-indent: 80px; 
+text-align:right;
+text-transform:uppercase;
+   }
+a:link{
+    color:red;
+}
+a:visited{
+ color:rgb(128, 0, 0);
+}
+a:hover{
+    color:aqua;
+}
+a:active{
+    color:blue;
+}
+.borderCss{
+    width: 70px;px;
+    height:50px;
+    background-color: aqua;
+    border-radius:10px;
+    border-width: 2px;
+    border-color: brown;
+    border-style:dashed;
+}
+ input{
+     width:40px;
+    height:30px; 
+    background-color:aqua;
+     margin:5px; 
+    padding-left:7px;
+    border: 3px dashed peru; 
+} 
+.boxmodel{
+    width:400px;
+   height:300px; 
+   background-color:aqua;
+    margin:5px; 
+   padding-left:6px;
+    
+}
+p{
+    width:200px;
+    height:50px;
+    border:4px solid brown;
+    overflow:hidden;
+}
+.position{
+    width:400px;
+height:300px;
+background-color: aqua;
+position:relative;
+
+}
+.child1{
+    width:50px;
+    height:40px;
+    background-color: rgb(128, 0, 79);
+     position: absolute; 
+     /* bottom:0;
+     right: 0; */
+     z-index:4;
+
+}
+.child2{
+    width:50px;
+    height:40px;
+    background-color: rgba(131, 188, 38, 0.785);
+     position: absolute;
+     /* right:0; */
+     z-index:3;
+}
+.child3{
+    width:50px;
+    height:40px;
+    background-color: rgba(28, 0, 128, 0.758);
+      position: absolute;  
+      /* bottom:0; */
+      z-index:2;
+}
+.child4{
+    width:50px;
+    height:40px;
+    background-color: rgb(128, 87, 0);
+    z-index:1;
+}
+.header{
+width:100%;
+height:80px;
+background-color:#000;
+}
+.logo{
+width:30%;
+line-height:80px;
+background-color:peru;
+text-align:center;
+ /* border-radius:100%;  */
+float:left;
+}
+.menu{
+    width: 70%;
+    line-height: 80px;
+    /* margin: 1px; */
+    background-color:burlywood;
+    float:right;
+}
+ul{
+    list-style:none;
+    text-align:center;
+}
+li{
+    display:inline-block;
+    margin-left: 10px;
+    padding:0 10px;
+
+}
